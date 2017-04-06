@@ -1,0 +1,53 @@
+html {
+    box-sizing: border-box;
+    color: #5a5550;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+    font-family: -apple-system, BlinkMacSystemFont, "Microsoft Yahei", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+ul li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color: #000;
+	font-family: Helvetica, Arial, sans-serif;
+}
+hr{
+	color: #ccc;
+}
+.wrapper {
+    position: relative;
+    zoom: 1;
+    margin-right: auto;
+    margin-left: auto;
+    width: 1140px;
+}
+
+.wrapper:before,
+.wrapper:after {
+    display: table;
+    content: '';
+}
+
+.wrapper:after {
+    clear: both;
+}
+.column{
+	width: 265px;
+	float: left;
+	margin-right: 10px;
+}
+.column2{
+	width: 122px;
+	float: left;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+

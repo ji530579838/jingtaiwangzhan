@@ -1,0 +1,42 @@
+html {
+    box-sizing: border-box;
+    color: #5a5550;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+    font-family: -apple-system, BlinkMacSystemFont, "Microsoft Yahei", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    list-style: none;
+}
+
+@font-face {
+    font-family: 'iconfont';
+    /* project id 179054 */
+    src: url('http://at.alicdn.com/t/font_ojqz7xk67mbo6r.eot');
+    src: url('http://at.alicdn.com/t/font_ojqz7xk67mbo6r.eot?#iefix') format('embedded-opentype'), url('http://at.alicdn.com/t/font_ojqz7xk67mbo6r.woff') format('woff'), url('http://at.alicdn.com/t/font_ojqz7xk67mbo6r.ttf') format('truetype'), url('http://at.alicdn.com/t/font_ojqz7xk67mbo6r.svg#iconfont') format('svg');
+}
+
+.wrapper {
+    position: relative;
+    zoom: 1;
+    margin-right: auto;
+    margin-left: auto;
+    width: 1110px;
+}
+
+.wrapper:before,
+.wrapper:after {
+    display: table;
+    content: '';
+}
+
+.wrapper:after {
+    clear: both;
+}

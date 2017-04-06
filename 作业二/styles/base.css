@@ -1,0 +1,82 @@
+html {
+    box-sizing: border-box;
+    color: #5a5550;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+    font-family: -apple-system, BlinkMacSystemFont, "Microsoft Yahei", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+ul li{
+	list-style: none;
+}
+.wrapper {
+	border:1px solid #ccc;
+    position: relative;
+    zoom: 1;
+    margin-right: auto;
+    margin-left: auto;
+    width: 375px;
+}
+
+.wrapper:before,
+.wrapper:after {
+    display: table;
+    content: '';
+}
+
+.wrapper:after {
+    clear: both;
+}
+
+@font-face {
+  font-family: 'iconfont';  /* project id 179054 */
+  src: url('http://at.alicdn.com/t/font_6bilwzlzkbg9zfr.eot');
+  src: url('http://at.alicdn.com/t/font_6bilwzlzkbg9zfr.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_6bilwzlzkbg9zfr.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_6bilwzlzkbg9zfr.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_6bilwzlzkbg9zfr.svg#iconfont') format('svg');
+}
+.search-icon{
+	font-family: iconfont;
+	font-size: .8em;
+}
+.menu-icon{
+	font-family: iconfont;
+	color: #fff;
+}
+.header-list-befor{
+	font-family: iconfont;
+	color: #fff;
+	font-size: .8em;
+	margin-right: 12px;
+}
+@media only screen and (width: 414px){
+	.wrapper{
+		width: 414px;
+	}
+}
+@media only screen and (width: 412px){
+	.wrapper{
+		width: 412px;
+	}
+}
+@media only screen and (width: 360px){
+	.wrapper{
+		width: 360px;
+	}
+}
+@media only screen and (width: 768px){
+	.wrapper{
+		width: 768px;
+	}
+}
+@media only screen and (width: 320px){
+	.wrapper{
+		width: 320px;
+	}
+}
